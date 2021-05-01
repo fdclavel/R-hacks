@@ -3,15 +3,13 @@
 # install the lubridate package if you don't already have it installed
 install.packages('lubridate')
 
-lub
-
-
-
-# Run the following script. What do you think they do?
 
 # The following three will explicitly call the lubridate
 # package without actually mounting it. It works but it is
-# a rather tedious way to use functions within specific packages.
+# a rather tedious way to use functions within specific packages,
+# however it can offer a useful layer of added precision in cases
+# where two or more packages share the same function name (this
+# is pretty common with larger packages [e.g., tidyverse or ggplot2]).
 
 lubridate::date() #display the current date and time
 lubridate::today() #display today's date cleanly
@@ -45,7 +43,5 @@ Sys.Date()
 
 #suspends execution of R expressions for (n) seconds
 Sys.sleep(10)
-
-
 
 
