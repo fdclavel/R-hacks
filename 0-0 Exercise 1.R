@@ -41,7 +41,14 @@ class(d2)
 #read the system's date in base R
 Sys.Date()
 
-#suspends execution of R expressions for (n) seconds
+# Sys.sleep suspends execution of R expressions for (n) seconds.
+# This function is useful for operations that involve web scraping,
+# where your script will send many requests to a server (e.g., 1000).
+# It is important to provide periods of downtime in between those 
+# requests (effectively mimicking a human), or else some servers may 
+# flag your machine as a bot and deny your requests, or even ban 
+# your IP from future requests.
+
 Sys.sleep(10)
 
 
