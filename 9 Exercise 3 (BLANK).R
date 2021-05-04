@@ -27,7 +27,7 @@
 
 
 
-# 7. Go back to the first page and open the Selector Gadget
+# 7. Go back to the first page and open the Selector Gadget or the Inspector on your browser.
 
 
 
