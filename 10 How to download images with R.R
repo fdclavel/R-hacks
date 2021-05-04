@@ -32,5 +32,8 @@ actor_image <- pg %>%
 
 #start with the first actor, Ben Barnes.
 download.file(url = actor_image[1], destfile = "Actor1.jpg", mode = "wb")
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 93b741270acab8fb10d0e31c52d8e979341874e8
