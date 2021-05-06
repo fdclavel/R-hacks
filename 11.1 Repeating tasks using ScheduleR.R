@@ -119,7 +119,7 @@ cat('\n')
 # you must specify the FULL file path for the folder and the csv
 # file, or else the scheduled task will fail, because it has no idea
 # what your working directory is. You could also theoretically set the
-# working directory at the start of this script, using the setwd() function.
+# working directory at the start of the script, using the setwd() function.
 
 dat <- links %>% 
   map_df(.x = ., .f = my_scraper)
