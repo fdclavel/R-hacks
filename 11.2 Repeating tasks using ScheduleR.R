@@ -53,7 +53,7 @@ taskscheduler_create(taskname = 'MyZillowScheduler',
 
 # NOTE - if your task runs incorrectly, check the log file it generates. 
 # Before you revise and re-run it, be sure to delete the currently running task
-# using the taskscheduler_delete function.
+# using the taskscheduler_delete function first.
 
 taskscheduler_delete(taskname = 'MyZillowScheduler')
 taskscheduler_ls()
