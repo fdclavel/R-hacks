@@ -90,3 +90,4 @@ parsed <- jsonlite::fromJSON(txt = my_Contetn, simplifyVector = T)
 
 parsed$availableCash # this would return the amount of cash left in your account as of data retrieval date.
 
+# next script will involve using GET to obtain data frames or tibbles.
