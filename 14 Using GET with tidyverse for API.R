@@ -73,13 +73,3 @@ httr::content(x = r2, as = 'text') %>%
   .$loans %>% 
   as_tibble()
   
-
-
-
-
-# now we can sift through the various elements in this JSON 
-# data object like usual, using the dollar sign operator.
-
-parsed$availableCash # this would return the amount of cash left in your account as of data retrieval date.
-
-# next script will involve using GET to obtain data frames or tibbles.
