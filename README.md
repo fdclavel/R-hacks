@@ -9,7 +9,7 @@
 - Using the maps family of functions to loop more efficiently
 - How to use the rvest package to scrape valuable data from websites
 - Download files with R
-- Use R to schedule repetitive task such as scraping at a set frequency dynamic data
+- Use R to schedule repetitive task such as scraping at a set frequency
 - APIs with R
 - Get data with an API using R
 - Post data with an API using R
